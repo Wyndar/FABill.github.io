@@ -1,0 +1,38 @@
+﻿nav {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    width: 100%;
+    background-color: azure;
+}
+
+ul {
+    list-style: none;
+}
+
+.project-tile {
+    display: block;
+    padding: 16px;
+    background-color: #dddddd;
+}
+
+#welcome-section {
+    position: relative;
+    top: 100px;
+    height: 100vh;
+    z-index: -1;
+}
+
+#projects {
+    position: relative;
+    top: 50px;
+    z-index: -1;
+}
+
+@media screen and(min-width:480px) {
+    #welcome-section {
+        top: 20%;
+    }
+}
