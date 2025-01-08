@@ -1,11 +1,24 @@
-﻿nav {
+﻿.fixed {
     position: fixed;
+    width:100%;
+}
+#top {
     top: 0;
     margin: 0;
     padding: 0;
     left: 0;
-    width: 100%;
     background-color: azure;
+    height: 15%;
+    min-height: 100px;
+}
+nav {
+    height: 10%;
+    top: 15%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    background-color: dodgerblue;
+    min-height: 50px;
 }
 label{
     color:aqua;
@@ -22,22 +35,45 @@ ul {
     padding: 16px;
     background-color: aliceblue;
 }
-
-#welcome-section {
+.nav-element {
+    display: inline-block;
+    padding-left:3vh;
+    padding-top:0;
+    padding-bottom:3vh;
+}
+#welcome {
     position: relative;
-    top: 100px;
-    height: 25vh;
+    top: 25vh;
+    height: 10vh;
     z-index: -1;
 }
 
 #projects {
     position: relative;
-    top: 5px;
+    top: 50vh;
     z-index: -1;
 }
+.icon {
+    min-width: 20px;
+    max-width: 5vh;
+    top: 0;
+    margin: 0;
+    padding: 1vh;
+    left: 0;
+}
+.profile-photo {
+    min-width: 40px;
+    max-width: 10vh;
+    top: 0;
+    margin: 0;
+    padding: 2vh;
+    left: 0;
+}
+body{
+    font-family:'Garamond',sans-serif;
+}
 
-@media screen (min-width:480px) {
-    #welcome-section {
-        top: 20%;
-    }
+@font-face {
+    font-family: 'Garamond';
+    src: url('./fonts/EBGaramond-VariableFont_wght.ttf') format('truetype');
 }
