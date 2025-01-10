@@ -1,5 +1,5 @@
 function navigateToContacts() {
-    window.location.href = './contact.html';
+    window.location.href = '#contacts';
 }
 
 const roundedBg = document.querySelector('.rounded-bg');
